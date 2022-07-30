@@ -1,6 +1,6 @@
 import React from 'react'
 
-const resume = () => {
+const Resume = () => {
   return (
     <div className="p.4">
         resume
@@ -8,4 +8,4 @@ const resume = () => {
   )
 }
 
-export default resume
+export default Resume
