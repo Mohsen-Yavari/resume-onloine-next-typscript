@@ -83,21 +83,21 @@ export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
-    level: "85",
+    level: "15",
   },
   {
     Icon: BsCircleFill,
     name: "Photoshop",
-    level: "45",
+    level: "25",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
+    name: "Vs Code",
     level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
+    name: "Pw",
     level: "45",
   },
 ];
