@@ -25,6 +25,7 @@ const index = () => {
       <h4 className="my-3 text-xl font-semibold tracking-wide">
         What I am doing
       </h4>
+      
 
       <div className="grid gap-6 my-3 md:grid-cols-2">
         {/* children's initial and animate property should be same as the parent during a stagger effect  */}
