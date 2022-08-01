@@ -5,6 +5,8 @@ import {GoLocation} from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
 
+import Image from "next/image";
+
 const sidebar = () => {
 
 
@@ -16,11 +18,17 @@ const sidebar = () => {
 
   return (
     <div>
-        <img 
-        src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-       alt="Picture of the author" 
-       className=" w-32 h-32 mx-auto rounded-full"
-       />
+
+            <Image
+            src="/images/img-resume.jpg"
+            alt="wsw"
+            className=" w-32 h-32 mx-auto rounded-full"
+            height="110"
+            width="110"
+           
+          />
+       
+   
 
         <h3 className="my-4 text-xl font-medum tracking-wider font-f">
           Mohsen

@@ -7,7 +7,7 @@ import {
 } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
+import { Service } from "../typs";
 const index = () => {
 
   return (
@@ -28,7 +28,7 @@ const index = () => {
       
 
       <div className="grid gap-6 my-3 md:grid-cols-2">
-        {/* children's initial and animate property should be same as the parent during a stagger effect  */}
+    
         {services.map((service) => (
           <div
             className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "

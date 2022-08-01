@@ -9,8 +9,8 @@ const Resume = () => {
 <div>
   <h5 className="my-3 text-2xl font-bold">Education</h5>
   <div>
-    <h5 className="my-2 text-">Psychology</h5>
-    <p className="text-gray-400 ">Lorestan University(2011 - 2015)</p>
+    <h5 className="my-2 text-">Psychology / software engineering</h5>
+    <p className="text-gray-400 ">Lorestan University</p>
     <p className="my-3">
     Hello ,
     I am Mohsen;

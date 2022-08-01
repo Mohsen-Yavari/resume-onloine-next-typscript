@@ -110,18 +110,18 @@ export const projects: IProject[] = [
     image_path: "/images/food.jpg",
     deployed_url: "hhttps://app.netlify.com/sites/ephemeral-kataifi-7145a9",
     github_url: "https://github.com/Mohsen-Yavari/delevery-foods-redux-2022/tree/master/src",
-    category: ["react"],
-    key_techs: ["React", "bootstrap", "sass","Redux"],
+    category: ["react","next"],
+    key_techs: ["React", "bootstrap", "sass","redux"],
   },
   {
     name: "Colors website",
     image_path: "/images/colors.jpg",
     deployed_url: "https://steady-scone-cbe261.netlify.app/",
     github_url: "https://github.com/Mohsen-Yavari/colors-react-project/tree/master/src",
-    category: ["react"],
+    category: ["react","next"],
     description:
       "Color spectrum site made with React",
-    key_techs: ["React"],
+    key_techs: ["React,Next"],
   },
 
   {
@@ -129,7 +129,7 @@ export const projects: IProject[] = [
     image_path: "/images/game.jpg",
     deployed_url: "https://symphonious-rabanadas-01f201.netlify.app/",
     github_url: "https://github.com/Mohsen-Yavari/react-game-guess-new",
-    category: ["react"],
+    category: ["react","typescript"],
     description:
       "An interesting game for guessing numbers",
     key_techs: [
@@ -143,9 +143,9 @@ export const projects: IProject[] = [
     image_path: "/images/kaktus.jpg",
     deployed_url: "https://lustrous-gaufre-404b69.netlify.app/",
     github_url: "https://github.com/Mohsen-Yavari/kaktus.project",
-    category: ["react"],
+    category: ["typescript,react"],
     description:
       "Are you interested in plants??Don't miss the Cactus site, with all kinds of attractive animations",
-    key_techs: ["React", "sass"],
+    key_techs: ["React", "sass","typescript"],
   }
 ];
